@@ -15,11 +15,12 @@ public class Program {
 
         System.out.println("Enter Product Data");
         System.out.println("Name:");
-        product.name = sc.next();
+        product.setName(sc.next());
         System.out.println("Price");
-        product.price = sc.nextDouble();
+        product.setPrice(sc.nextDouble());
         System.out.println("Quantity:");
-        product.quantity = sc.nextInt();
+        product.setQuantity(sc.nextInt());
+
 
 
         System.out.println();
